@@ -1,0 +1,359 @@
+#first-section 
+{
+    background-image:linear-gradient(rgba(0, 0, 0, 0.678), black), url(./../img/bg-craft-left.png);
+    height: 400px;
+    display: flex;
+}
+@media only screen and (max-width: 767px)
+{
+    #first-section 
+    {
+        height: 0px;
+    }
+}
+
+#carousel
+{
+    margin-top: 30px;
+}
+#second-section 
+{
+    background-color: black;
+    height: 700px;
+    display: flex;
+    
+}
+
+#second-main
+{
+    margin-top: 15rem;
+    border-left: 2px solid #FFF;
+    border-right: 2px solid #FFF;
+    height: 400px;
+}
+/* #x
+{
+    margin-top: 15rem;
+    border-left: 2px solid #FFF;
+    border-left: 2px solid #FFF;
+    height: 800px;
+} */
+#text
+{
+    text-align: center;
+    color: #ffffff;
+    font-size: 19.2;
+}
+@media only screen and (max-width: 767px)
+{
+    #second-section 
+    {
+        height: 1000px;
+    }
+    #second-main 
+    {
+        height: 700px;
+    }
+}
+
+#third-section
+{
+    background-image: url(./../img/module-restaurants-top.png);
+    height: 50px;
+}
+@media only screen and (max-width: 767px)
+{
+        #third-section
+    {
+        height: 0px;
+    }
+}
+#four-section
+{
+    background-color: #f0f0f0;
+    height: 650px;
+}
+@media only screen and (max-width: 767px)
+{
+        #four-section
+    {
+        height: 1200px;
+    }
+}
+#four-section #header-text #htext
+{
+    /* margin-top: 80px; */
+    text-align: center;
+    padding-top: 50px;
+    font-size: 85.333px;
+    text-transform: uppercase;
+    /* text-decoration: cadetblue; */
+}
+@media only screen and (max-width: 767px)
+{
+    #four-section #header-text #htext
+    {
+        /* margin-top: 80px; */
+        /* text-align: center; */
+        padding-top: 50px;
+        font-size: 20px;
+        text-transform: uppercase;
+        /* text-decoration: cadetblue; */
+
+    }
+}
+#four-section #restaurant img
+{
+    width: 100%;
+}
+#four-section #restaurant #first-image:hover
+{
+    opacity: 0.5;
+}
+#four-section #restaurant #second-image:hover
+{
+    opacity: 0.5;
+}
+#four-section #restaurant #third-image:hover
+{
+    opacity: 0.5;
+}
+
+#four-section #restaurant
+{
+    margin-top: 50px;
+}
+#four-section #restaurant #first-image #first-image-link
+{
+    margin-top: 20px;
+    text-align: center;
+    font-size: 30px;
+    text-transform: uppercase;
+}
+#four-section #restaurant #second-image #second-image-link
+{
+    margin-top: 20px;
+    text-align: center;
+    font-size: 30px;
+    text-transform: uppercase;
+}
+#four-section #restaurant #third-image #third-image-link
+{
+    margin-top: 20px;
+    text-align: center;
+    font-size: 30px;
+    text-transform: uppercase;
+}
+#four-section #restaurant #first-image #first-image-tagline
+{
+    /* margin-top: 20px; */
+    text-align: center;
+    font-size: 20px;
+    /* text-transform: uppercase; */
+    border-bottom: 2px solid #000
+}
+#four-section #restaurant #second-image #second-image-tagline
+{
+    /* margin-top: 20px; */
+    text-align: center;
+    font-size: 20px;
+    /* text-transform: uppercase; */
+    border-bottom: 2px solid #000
+}
+#four-section #restaurant #third-image #third-image-tagline
+{
+    /* margin-top: 20px; */
+    text-align: center;
+    font-size: 20px;
+    /* text-transform: uppercase; */
+    border-bottom: 2px solid #000
+}
+
+@media only screen and (max-width: 767px)
+{
+    #four-section #restaurant #first-image
+    {
+        margin-bottom: 30px;
+    }
+    #four-section #restaurant #third-image
+    {
+        margin-top: 30px;
+    }
+}
+
+#five-section
+{
+    background-image: url(./../img/module-restaurants-bottom.png);
+    height: 50px;
+}
+@media only screen and (max-width: 767px)
+{
+    #five-section
+    {
+        height: 0px;
+    }
+}
+#six-section
+{
+    background-color: #333;
+    height: 230px;
+}
+@media only screen and (max-width: 767px)
+{
+    #six-section #six-first-col
+    {
+        margin-top: 140px;
+    }
+}
+#six-section #six-first-col
+{
+    padding-top: 50px;
+}
+#six-section #six-first-col #six-first-col-frow
+{
+    padding-top: 30px;
+    padding-bottom: 30px;
+    border-top: 2px solid #FFF;
+    border-bottom: 2px solid #FFF;
+    text-align: center;
+    color: #FFF;
+}
+#six-section #six-first-col #six-first-col-srow
+{
+    background-image: url(./../img/cta-bg.png);
+    text-align: center;
+    padding-top: 30px;
+    height: 150px;
+}
+@media only screen and (max-width: 767px)
+{
+    #six-section #six-first-col #six-first-col-srow
+    {
+        margin-top: 20px;
+        text-align: center;
+
+    }
+}
+#seven-section
+{
+    height: 720px;
+    background-color: #FFF;
+}
+#seven-section #ftitle
+{
+    text-align: center;
+    font-size:85.333px;
+    /* text-transform: uppercase; */
+    margin-top: 50px;
+}
+#seven-first #cbg
+{
+    background-color: black;
+    color: cornsilk;
+    height: 200px;
+}
+#seven-section #seven-button
+{
+    margin-top: 30px;
+    text-align: center;
+    /* background-color: black;
+    color: cornsilk; */
+}
+#seven-section #seven-button button
+{
+    background-color: black;
+    color: white;
+    font-size: 30px;
+    text-transform: uppercase;
+    width: 200px;
+    height: 70px;
+}
+#seven-section #seven-button button:hover
+{
+    background-color:white ;
+    color:black ;
+    border: 2px black solid;
+}
+@media only screen and (max-width: 767px)
+{
+    #seven-section #ftitle
+    {
+        padding-top: 100px;
+        font-size: 30px;
+    }
+    #seven-section #seven-second-col
+    {
+        margin-top: 10px;
+    }
+    #seven-section #seven-third-col
+    {
+        margin-top: 10px;
+    }
+}
+#eight-section
+{
+    background-color:rgb(102,102,102);
+    height: 400px;
+}
+#eight-section #eight-bg-img
+{
+    background-image: url(./../img/footer-top.png);
+    height: 30px;
+}
+#eight-section #eight-first
+{
+    border-top: 2px solid #FFF;
+    border-bottom: 2px solid #FFF;
+    /* width: 1110px; */
+}
+#eight-section #eight-first #eight-first-col:hover
+{
+    opacity: 0.5;
+}
+#eight-section #eight-first #eight-second-col:hover
+{
+    opacity: 0.5;
+}
+#eight-section #eight-first #eight-third-col:hover
+{
+    opacity: 0.5;
+}
+@media only screen and (max-width: 767px)
+{
+    #eight-section
+    {
+        /* background-color:rgb(102,102,102); */
+        height: 150px;
+        text-align: center;
+        margin-top: 800px;
+        
+    }
+}
+#nine-section
+{
+    background-color:rgb(102,102,102);
+    height: 100px;
+    /* border-bottom: 2px solid #FFF; */
+}
+#nine-section #nine-link
+{
+    text-align: center;
+    color: white;
+}
+#nine-section #copyright
+{
+    text-align: center;
+}
+#nine-section #nine-bg-img
+{
+    background-image: url(./../img/footer-bottom.png);
+    height:30px ;
+    border-top: 2px solid #FFF;
+}
+@media only screen and (max-width: 767px)
+{
+    #nine-section
+    {
+        height: 140px;
+    }
+}
